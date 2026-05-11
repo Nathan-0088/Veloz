@@ -1,0 +1,49 @@
+.favoritos-container {
+  min-height: calc(100dvh - 195px);
+  width: 800px;
+  max-width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  gap: 1rem;
+  text-align: center;
+}
+
+.card-favoritos {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.favoritos-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.favoritos-buttons button {
+  padding: 5px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #00a8e1;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.favoritos-buttons button:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .favoritos-buttons button {
+        font-size: 12px;
+    }
+    .card-favoritos h1{
+        font-size: 20px;
+    }
+    
+}

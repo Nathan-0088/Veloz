@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 1.1rem;
+  gap: 10px;
+  background-color: #0f171e;
+  color: white;
+  text-align: center;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer a {
+  color: #00a8e1;
+}
+
+@media (min-width: 600px) {
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 40px;
+  }
+
+  footer div {
+    flex-direction: row;
+  }
+
+}

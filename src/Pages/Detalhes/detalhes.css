@@ -1,0 +1,61 @@
+:root {
+  --background: #0f171e;
+  --azul: #00a8e1;
+  --texto: #ffffff;
+}
+.detalhes-container {
+  min-height: calc(100dvh - 150px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.detalhes-container img {
+  height: 382px;
+  max-height: 100%;
+  max-width: 800px;
+  width: 90%;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.detalhes-container h1 {
+  margin: 10px 0;
+}
+
+.detalhes-container p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.buttons {
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--azul);
+  color: var(--texto);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+}
+
+#p {
+    margin: 0 1rem;
+    text-align: center;
+}
