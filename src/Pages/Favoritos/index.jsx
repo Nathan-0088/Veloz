@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./favoritos.css";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 export default function Favoritos() {
   const [filmes, setFilmes] = useState(() => {
@@ -24,9 +25,9 @@ export default function Favoritos() {
         <div key={item.id} className="card-favoritos">
           <h1>{item.title}</h1>
           <div className="favoritos-buttons">
-            <a href={`/detalhes/${item.id}`}>
+            <Link to={`/detalhes/${item.id}`}>
               <button id="detalhes-bnt">Ver detalhes</button>
-            </a>
+            </Link>
             <button onClick={() => excluir(item.id)}>Excluir</button>
           </div>
         </div>
