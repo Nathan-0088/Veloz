@@ -1,18 +1,92 @@
-# React + Vite
+# 🎬 Veloz Movies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido em React que consome uma API de filmes para exibir os filmes mais populares do momento.  
+O usuário pode visualizar detalhes, assistir trailers e salvar filmes favoritos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+- React
+- JavaScript
+- Vite
+- CSS
+- React Router DOM
+- API de filmes
+- LocalStorage
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- 🔥 Listagem de filmes populares
+- 🎥 Visualização de trailers
+- ❤️ Sistema de favoritos
+- 💾 Salvamento no LocalStorage
+- 📱 Interface responsiva
+- 🔎 Página de detalhes do filme
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+Acesse o projeto online:
+
+[Veloz Movies](https://veloz-three.vercel.app/)
+
+---
+
+## ⚙️ Como rodar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+```
+
+Entre na pasta:
+
+```bash
+cd nome-do-projeto
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧠 Aprendizados
+
+Nesse projeto foram praticados conceitos como:
+
+- Consumo de API REST
+- Rotas com React Router
+- Componentização
+- Gerenciamento de estado
+- Hooks do React
+- Persistência de dados com LocalStorage
+
+---
+
+## 📌 Melhorias futuras
+
+- ⭐ Sistema de avaliação
+- 🔍 Busca de filmes
+- 🎭 Filtros por categoria
+- 🌙 Dark mode
+- 👤 Autenticação de usuários
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Nathaniel Alves Ribeiro.
